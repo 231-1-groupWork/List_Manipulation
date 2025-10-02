@@ -1,1 +1,27 @@
-README INDIVIDUEL DE L'ETUDIANTS
+##Liste Doublement Chaînée Triée en C
+
+Ce projet est une implémentation robuste d'une Liste Doublement Chaînée Triée en C. C'est une excellente démonstration de la gestion optimal des pointeurs et de l'efficacité algorithmique.
+
+
+##  Objectif 
+
+Mon principal objectif était de créer une structure dynamique capable de stocker des données (entiers) tout en garantissant qu'elles restent automatiquement en ordre croissant .
+
+L'objetif a été relevé avec la fonction * insererTriDouble()* : Car elle gère à la fois l'allocation mémoire et le **re-chaînage bidirectionnel** complexe, en insérant le nouveau nœud exactement là où il doit être pour maintenir l'ordre.
+
+ce qui garantie ainsi le principe de tri qui as été assigner
+
+### Ce que J'ai Développé
+
+* Structure de Données: J'ai conçu la `struct NoeudDouble`, qui est la clé pour la traversée bidirectionnelle (avant et arrière) grâce aux pointeurs `suivant` et `precedent`.
+* Logique d'Insertion : J'ai mis au point l'algorithme qui trouve l'emplacement idéal et met à jour les *quatre pointeurs* impliqués lors de l'insertion pour préserver la double liaison.
+* Compétences C : J'ai démontré une comprehension  de l'allocation dynamique de mémoire (malloc) et de la manipulation des pointeurs de pointeur (`struct tete`).
+
+---
+
+## Compétences Techniques Clés
+
+* Structures : Listes Doublement Chaînées
+* Mémoire : malloc et gestion des fuites potentielles (non montrée mais considérée)
+* Pointeurs : Manipulation avancée de `struct` et `struct`
+* Algorithmes : Insertion dans une liste triée .
