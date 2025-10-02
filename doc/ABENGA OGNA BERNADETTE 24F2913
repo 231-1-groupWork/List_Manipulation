@@ -1,0 +1,27 @@
+NOM DU PROJET :insertion d'un élément dans une liste simplement chaînée trié
+DESCRIPTION:
+Objectif du programme :
+Ce programme en langage C permet d’insérer un élément dans l’ordre croissant* dans une *liste simplement chaînée triée*.
+
+Fonctionnalités :
+. insererTrie(int val):  
+   - Crée un nouveau nœud avec la valeur donnée.  
+   - Parcourt la liste pour trouver la bonne position d’insertion.  
+   - Insère l’élément de manière à garder la liste triée.
+
+. afficherListe():  
+   - Parcourt la liste du début à la fin.  
+   - Affiche les éléments dans l’ordre.
+
+Structure utilisée :
+- Chaque nœud contient :
+  - Une valeur entière (`data`)  
+  - Un pointeur vers le *nœud suivant* (`next`)
+
+Avantages :  
+- La liste reste toujours triée après chaque insertion.  
+- Permet des recherches optimisées si les données sont toujours en ordre 
+Compilation :
+Utiliser un compilateur C (comme GCC) :
+bash
+gcc programme.c -o liste
